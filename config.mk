@@ -50,3 +50,6 @@ SIM ?=
 # LATENCY = 10
 # WAVE = trace.vcd
 # LOG = run.log
+
+# The correctness-only core needs about 12 million cycles for correctness_pi.
+MAX_CYCLES ?= 100000000
